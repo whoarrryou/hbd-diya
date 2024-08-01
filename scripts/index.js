@@ -13,7 +13,7 @@ var checkTime = setInterval(function() {
 // If current time has reached or passed the target time, redirect to another page
 if (now >= targetDate) {
   clearInterval(checkTime);
-  window.location.href = "pagebeforebirthday.html";
+  window.location.href = "birthday.html";
 }
 }, 1000);
 let countDown = () => {
