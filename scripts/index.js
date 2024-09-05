@@ -5,7 +5,7 @@ let secondsItem = document.querySelector("#seconds");
 
 
 // Set the date and time to redirect (adjust the date to the birthday)
-var targetDate = new Date("Aug 12, 2024 00:00:00").getTime();
+var targetDate = new Date("Aug 12, 2025 00:00:00").getTime();
 
 // Check every second if it's time to redirect
 var checkTime = setInterval(function() {
@@ -17,7 +17,7 @@ if (now >= targetDate) {
 }
 }, 1000);
 let countDown = () => {
-  let futureDate = new Date("12 Aug 2024");
+  let futureDate = new Date("12 Aug 2025");
   let currentDate = new Date();
   let myDate = futureDate - currentDate;
   //console.log(myDate);
