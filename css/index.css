@@ -1,0 +1,44 @@
+body {
+  background-image: url("/images/bg2.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+.confetti {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    opacity: 0.7;
+  }
+
+  .overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: opacity 0.5s;
+    user-select: none;
+  }
+
+.confetti-txt {
+    font-size: 54px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hbd-txt {
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #F07167;
+
+}
+
+.wish-para {
+    font-style: italic;
+    font-size: 36px;
+    color: #3D2B56
+}
+
+#hbd-msg {
+  user-select: none;
+}
